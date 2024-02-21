@@ -7,5 +7,5 @@ function calculate(){
     grocery2 = parseFloat(document.getElementById("grocery2").value);
     grocery3 = parseFloat(document.getElementById("grocery3").value);
     let total = grocery1 + grocery2 + grocery3;
-    document.getElementById("result").innerText = total;
+    document.getElementById('result').innerText = `Total amount of your grocery is: ${total}`;
 }
